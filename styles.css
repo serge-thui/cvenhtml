@@ -1,0 +1,35 @@
+body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#131F22 ;
+    color: thistle;
+    margin: 0;
+    height: 100px;
+}
+nav{
+    margin-right: 50px;
+    vertical-align: middle;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+}
+nav a{
+    color: #f2f2f2;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+nav ul li{
+    padding-right: 20px;
+}
+#logo{
+    margin-top: 0px;
+    margin-left: 0px;
+}
